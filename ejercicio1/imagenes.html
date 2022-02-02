@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tratamiento semantico de imagenes</title>
+</head>
+
+<body>
+    <!-- siempre indexar imagenes con figure/img y el texto con figcaption  -->
+
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPYamtW3JGb6cJ7nE_jO72rsH06i15_YceMg&usqp=CAU"
+            alt="">
+    </div>
+
+    <figure>
+        <img src="" alt="">
+    </figure>
+
+    <picture>
+        <!-- solo para cambiar de imagen como contenido dependiendo del tamaño -->
+        <source media="(min-width: 800px)" srcset="">
+        <source media="(min-width: 500px)" srcset="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPYamtW3JGb6cJ7nE_jO72rsH06i15_YceMg&usqp=CAU"
+            alt="">
+    </picture>
+
+</body>
+
+</html>
