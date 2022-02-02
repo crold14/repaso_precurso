@@ -1,0 +1,75 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    
+    
+}
+
+.primero { 
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    margin: 0 auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.segundo{
+    width: 140px;
+    height: 20px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.tercero{
+    width: 180px;
+    height:200px;
+    background-color: green;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tercero div {
+    
+    width: 50px;
+    height:50px;
+    margin: 0 auto 10px auto;
+    border-radius: 25px;
+}
+
+.tercero div:first-child{
+    background-color: red;
+}
+
+
+.tercero div:nth-child(2){
+   background-color: yellow;
+
+}
+.tercero div:last-child{
+    background-color: lightgreen ;
+}
+
+.cuarto{
+    width: 20px;
+    height:150px;
+    background-color: green;
+    margin: 0 auto;
+}
+.quinto{
+      width: 180px;
+    height:20px;
+    background-color: green;
+    margin: 0 auto;
+}
