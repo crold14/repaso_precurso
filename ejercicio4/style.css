@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.foto {
+    max-width: 900PX;
+    height: 900px;
+    margin: 0 auto;  
+    background-image: url(./images/chica.jpg);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto div{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 300px;
+    border: 15px solid white;
+  
+}
